@@ -22,17 +22,16 @@ Designed to eliminate memory fragmentation, maximize CPU cache locality, and pro
 
 ## 📂 Project Structure
 
-```text
-├── CoreTypes.h      # Compile-time constants (constexpr), memory rules (enum class), and engine macros
-├── WorldData.h      # SoA (Struct of Arrays) component pools and smart pointer streaming references
-└── main.cpp         # Entry point, system execution, and lifecycle verification
-```
+    # Compile-time constants (constexpr), memory rules (enum class), and engine macros
+      # SoA (Struct of Arrays) component pools and smart pointer streaming references
+        # Entry point, system execution, and lifecycle verification
+
 
 ---
 
 ## 🛠️ Tech Stack & Requirements
 
-* **Language:** C++14 / C++17
+* **Language:** C++14 / C++17 / C++11
 * **Platform:** Windows (Win32 API / Windows 10 & 11 SDK)
 * **IDE / Compiler:** Visual Studio 2022 / 2026 (MSVC x64)
 
